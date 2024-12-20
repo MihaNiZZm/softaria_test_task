@@ -1,5 +1,12 @@
 package ru.nsu.fit.mihanizzm;
 
+import ru.nsu.fit.mihanizzm.domain.DailyWebsiteDifferenceCheckManager;
+import ru.nsu.fit.mihanizzm.domain.impl.DailyWebsiteDifferenceCheckManagerImpl;
+import ru.nsu.fit.mihanizzm.domain.DailyWebsiteOverviewCreator;
+import ru.nsu.fit.mihanizzm.domain.impl.DailyWebsiteOverviewCreatorImpl;
+import ru.nsu.fit.mihanizzm.domain.impl.DashWebsiteSetFormatter;
+import ru.nsu.fit.mihanizzm.domain.WebsiteSetFormatter;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;

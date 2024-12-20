@@ -1,10 +1,12 @@
-package ru.nsu.fit.mihanizzm;
+package ru.nsu.fit.mihanizzm.domain.impl;
+
+import ru.nsu.fit.mihanizzm.domain.DailyWebsiteDifferenceCheckManager;
 
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class DailyWebsiteDifferenceCheckManagerImpl implements DailyWebsiteDifferenceCheckManager{
+public class DailyWebsiteDifferenceCheckManagerImpl implements DailyWebsiteDifferenceCheckManager {
 
     @Override
     public Set<String> findDisappearedPages(Map<String, String> yesterday, Map<String, String> today) {

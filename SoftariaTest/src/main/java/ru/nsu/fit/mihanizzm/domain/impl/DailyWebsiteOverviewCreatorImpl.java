@@ -1,4 +1,7 @@
-package ru.nsu.fit.mihanizzm;
+package ru.nsu.fit.mihanizzm.domain.impl;
+
+import ru.nsu.fit.mihanizzm.domain.DailyWebsiteOverviewCreator;
+import ru.nsu.fit.mihanizzm.domain.WebsiteSetFormatter;
 
 import java.util.Set;
 
