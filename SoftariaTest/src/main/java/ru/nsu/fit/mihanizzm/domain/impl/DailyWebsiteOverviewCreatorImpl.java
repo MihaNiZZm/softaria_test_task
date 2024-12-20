@@ -6,7 +6,7 @@ import ru.nsu.fit.mihanizzm.domain.WebsiteSetFormatter;
 import java.util.Set;
 
 public class DailyWebsiteOverviewCreatorImpl implements DailyWebsiteOverviewCreator {
-    private WebsiteSetFormatter formatter;
+    private final WebsiteSetFormatter formatter;
 
     public DailyWebsiteOverviewCreatorImpl(WebsiteSetFormatter formatter) {
         this.formatter = formatter;
